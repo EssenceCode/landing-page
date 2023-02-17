@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-image: url(./img/background-images.webp);
 }
 
 .navi-container{
@@ -7,9 +8,7 @@ body{
     justify-content: space-around;
     background-color: plum;
     padding: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+  
 }
 
 .navi-container img{
@@ -30,7 +29,8 @@ body{
 
 .hero-container{
     background-color: plum;
-    margin: 50px 50px;
+    border-radius: 50px;
+    margin:25px 50px;
     padding: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -47,15 +47,18 @@ body{
 .main-text{
     font-size: 48px;
     font-weight: bold;
+    color: darkmagenta;
 }
 
 .sub-text{
     font-size: 18px;
+    color: yellow;
 }
 
 
 .info-container{
-    margin: 50px 50px;
+    border-radius: 50px;
+    margin: 25px 25px;
     width: auto;
     height: 400px;
     background: plum;
@@ -65,12 +68,20 @@ body{
     justify-content: space-evenly;
 }
 
+h2{
+    color: darkmagenta;
+    font-size: 38px;
+}
 
 .info-element{
+    color: yellow;
     display: flex;
     gap: 20px;
 }
 
+.info-content{
+    font-size: 18px;
+}
 
 .info-container img{
     width: 200px;
@@ -78,3 +89,76 @@ body{
 }
 
 
+.qoute-container{
+    display: flex;
+    justify-content: center;
+    margin: 25px 25px;
+}
+
+.blockqoute{
+    max-width: 600px;
+    margin: 10px 30px;
+    padding: 25px;
+    background: plum;
+    border: 1px solid darkmagenta;
+}
+
+.text-qoute{
+    font-family: "Gelasio",serif;
+    font-style: italic;
+    font-size: 1.15em;
+    line-height: 1.5;
+    color: yellow;
+}
+
+.author-qoute{
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.author-qoute::before{
+    content: "\2014";
+}
+
+.action-container{
+    margin: 10px 30px;
+    padding: 25px;
+}
+
+.action-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 100px;
+    padding: 25px;
+    background: plum;
+    border: 1px solid darkmagenta;
+}
+
+.action-main{
+    color: darkmagenta;
+    font-size: 38px;
+}
+
+.action-sub{
+    color: yellow;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background: plum;
+    
+    padding: 10px;
+
+}
+
+*{
+    font-size: 18px;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+button {
+    outline-color: transparent;
+}
