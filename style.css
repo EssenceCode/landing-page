@@ -55,6 +55,10 @@ body{
     color: yellow;
 }
 
+.hero-container img {
+    object-fit: contain;
+    max-width: 100%;
+}
 
 .info-container{
     border-radius: 50px;
@@ -155,6 +159,7 @@ h2{
 }
 
 *{
+    
     font-size: 18px;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
